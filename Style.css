@@ -1,0 +1,187 @@
+/* Importing Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #1f1c2c, #928dab);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  background-color: #ffffff10;
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  color: white;
+  width: 350px;
+}
+
+/* Title */
+.head {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* Amount Input */
+.amount input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: #2d2d44;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+/* Dropdown Container */
+.dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+/* From and To Blocks */
+.from, .to {
+  width: 40%;
+}
+
+/* Labels */
+.from p, .to p {
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+}
+
+/* Flag + Select Container */
+.select {
+  display: flex;
+  align-items: center;
+  background-color: #2d2d44;
+  border-radius: 10px;
+  padding: 6px 10px;
+}
+
+.select img {
+  width: 30px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.select {
+  position: relative;
+  width: 100%;
+}
+
+.select select {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #2d2d44;
+  color: #fff;
+  font-size: 14px;
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* Custom dropdown arrow */
+.select::after {
+  content: "\f078"; /* FontAwesome down arrow (chevron) */
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #fff;
+  font-size: 12px;
+}
+
+
+/* Swap Icon */
+.fa-arrow-right-arrow-left {
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.fa-arrow-right-arrow-left:hover {
+  transform: rotate(180deg);
+}
+
+/* Result Message */
+.msg {
+  font-size: 16px;
+  font-weight: 500;
+  color: #00ffe7;
+  margin-bottom: 20px;
+}
+
+/* Button */
+.button {
+  background: #00c9ff;
+  background: linear-gradient(to right, #92fe9d, #00c9ff);
+  color: #000;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+@media (max-width: 500px) {
+  .main {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .dropdown {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .from, .to {
+    width: 100%;
+  }
+
+  .select {
+    justify-content: space-between;
+  }
+
+  .fa-arrow-right-arrow-left {
+    transform: rotate(90deg);
+    margin: 10px 0;
+  }
+
+  .button {
+    width: 100%;
+  }
+}
