@@ -12,7 +12,6 @@ const countryList = {
   SGD: "SG",
   NZD: "NZ",
   ZAR: "ZA",
-  RUB: "RU",
   THB: "TH",
   MXN: "MX",
   NOK: "NO"
