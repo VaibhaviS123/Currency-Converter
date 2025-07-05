@@ -2,11 +2,6 @@
 
 A simple and responsive Currency Converter built using **HTML**, **CSS**, and **JavaScript**, which fetches real-time exchange rates using a free currency API.
 
-
-
-## 🌐 Live Demo
-
-
 ## 🛠️ Features
 
 - 🔁 Convert from one currency to another
