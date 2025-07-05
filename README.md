@@ -4,7 +4,7 @@ A simple and responsive Currency Converter built using **HTML**, **CSS**, and **
 
 ## 🌐 Live Demo
 
-👉 https://VaibhaviS123.github.io/currency-converter/
+👉 https://VaibhaviS123.github.io/currency-converter
 ## 🛠️ Features
 
 - 🔁 Convert from one currency to another
