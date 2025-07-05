@@ -48,7 +48,7 @@ currency-converter/
 
 ## 🙋‍♀️ Author
 
-Made with ❤️ by [Vaibhavi SHinde]
+Made with ❤️ by [Vaibhavi Shinde]
 
 
 
