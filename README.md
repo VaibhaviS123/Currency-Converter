@@ -6,7 +6,7 @@ A simple and responsive Currency Converter built using **HTML**, **CSS**, and **
 
 ## 🌐 Live Demo
 
-👉 [Click here to view the live site](https://VaibhaviS123.github.io/currency-converter/)  
+https://VaibhaviS123.github.io/currency-converter 
 
 ## 🛠️ Features
 
@@ -41,7 +41,6 @@ currency-converter/
 ├── index.html # Main HTML page
 ├── style.css # Styling
 ├── script.js # JavaScript for functionality
-├── imgaes
 └── README.md # Project documentation
 
 
